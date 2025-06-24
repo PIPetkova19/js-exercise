@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Random Number Generator</h1>
+    <div id="textBoxs">
+        <label for="lengthTextBox" id="labelLength">Enter length:</label>
+        <input type="number" value="1" min="1" max="20" id="lengthTextBox"><br><br>
+
+        <label for="lowercaseTextBox" id="labelLowercase">Lowercase:</label>
+        <select name="optionsLowercase" id="lowercaseTextBox">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br><br>
+
+        <label for="uppercaseTextBox" id="labelUppercase">Uppercase:</label>
+        <select name="optionsUppercase" id="uppercaseTextBox">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br><br>
+
+        <label for="numbersTextBox" id="labelNumbers">Numbers:</label>
+        <select name="optionsNumbers" id="numbersTextBox">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br><br>
+
+        <label for="symbolsTextBox" id="labelSymbols">Symbols:</label>
+        <select name="optionsSymbols" id="symbolsTextBox">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br><br>
+        <button id="submitBtn" onclick="passwordGenerator()">Submit</button>
+    </div>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

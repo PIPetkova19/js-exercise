@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(211, 199, 183);
+}
+h1{
+        color:rgb(90, 60, 90);
+
+}
+label{
+    color:rgb(90, 60, 90);
+}
+#lengthTextBox {
+    width: 50px;
+}
+
+#result {
+    font-size: 20px;
+}
+
+#textBoxs {
+    font-size: 20px;
+    background-color: rgb(230, 224, 220)
+
+;
+    width: 350px;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+#submitBtn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(200, 170, 180);
+}
+
+#submitBtn:hover {
+    background-color: rgb(123, 97, 121);
+    cursor: pointer;
+}
