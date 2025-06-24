@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#labelTextBox {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+#submitBtn {
+    background-color: rgb(91, 167, 224);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+#submitBtn:hover {
+    background-color: rgb(68, 120, 160);
+}
+
+#numberTextBox {
+    font-size: 22px;
+}
