@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-color: rgb(215, 242, 245);
+}
+
+h1 {
+    color: rgb(51, 50, 49);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 90px;
+}
+
+#clock {
+    color: rgb(51, 50, 49);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 70px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.292);
+}
+
+#startBtn,
+#stopBtn,
+#resetBtn {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#startBtn {
+    background-color: rgb(79, 205, 77);
+}
+
+#startBtn:hover {
+    background-color: rgb(50, 128, 48);
+}
+
+#stopBtn {
+    background-color: rgb(205, 77, 77);
+}
+
+#stopBtn:hover {
+    background-color: rgb(120, 45, 45);
+}
+
+#resetBtn {
+    background-color: rgb(77, 107, 205);
+}
+
+#resetBtn:hover {
+    background-color: rgb(49, 68, 129);
+}
+
+#clock-container {
+    border-radius: 10px;
+    background-color: rgb(223, 206, 183);
+    width: 30%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: rgb(223, 206, 183);
+    padding: 40px;
+    border-style: solid;
+}
