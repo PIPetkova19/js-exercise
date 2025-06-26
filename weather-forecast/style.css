@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(237, 237, 195);
+    position: relative;
+    min-height: 30vh;
+}
+
+#form {
+    position: relative;
+    margin: 0;
+}
+
+#inputText,
+#btn {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#btn {
+    cursor: pointer;
+    background-color: rgb(13, 224, 13);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: none;
+}
+
+#btn:hover {
+    background-color: rgb(25, 142, 25);
+}
+
+#result {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 20px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    width: 25%;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+#cityName,
+#temperature {
+    font-size: 50px;
+}
+
+#humidity,
+#weather {
+    font-size: 30px;
+    font-style: italic;
+}
+
+#emoji {
+    font-size: 100px;
+}
+
+#outputError {
+    display: none;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
